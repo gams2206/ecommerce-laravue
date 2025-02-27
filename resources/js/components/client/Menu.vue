@@ -11,7 +11,7 @@
                     alt="Logo" width="200rem" height="70rem"></a>
             <Search />
             <div class="d-flex gap-3 align-items-center">
-                <a href="#" class="link-underline-dark"><i class="bi bi-geo-alt-fill"></i> Rastrear Pedido</a>
+                <a href="/rastreio" class="link-underline-dark"><i class="bi bi-geo-alt-fill"></i> Rastrear Pedido</a>
                 <p style="font-size: xx-large; font-weight: 100;"> | </p>
                 <Cart />
             </div>
@@ -25,7 +25,7 @@
                 <div class="container">
                     <ul class="navbar-nav d-flex justify-content-evenly w-100">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">HOME</a>
+                            <a class="nav-link" href="/">HOME</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">ACTION FIGURES</a>

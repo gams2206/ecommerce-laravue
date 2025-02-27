@@ -1,7 +1,9 @@
 import './bootstrap';
-
 import { createApp } from 'vue';
+
 import Home from './pages/Home.vue';
+import Rastreio from './pages/Rastreio.vue';
+
 import Menu from './components/client/Menu.vue';
 import Cart from './components/client/Cart.vue';
 import Search from './components/client/Search.vue';
@@ -14,10 +16,13 @@ import SectionTitle from './components/client/SectionTitle.vue';
 import RoundCard from './components/client/RoundCard.vue';
 import Card from './components/client/Card.vue';
 import ZapBtn from './components/client/ZapBtn.vue';
+import CargoSearch from './components/client/CargoSearch.vue';
 
 const app = createApp();
 
 app.component('Home', Home);
+app.component('Rastreio', Rastreio)
+
 app.component('Menu', Menu);
 app.component('Cart', Cart);
 app.component('Search', Search);
@@ -30,4 +35,5 @@ app.component('SectionTitle', SectionTitle);
 app.component('RoundCard', RoundCard);
 app.component('Card', Card);
 app.component('ZapBtn', ZapBtn);
+app.component('CargoSearch', CargoSearch);
 app.mount('#app');
