@@ -15,12 +15,13 @@ export default {
 <style scoped>
 #quantity {
     position: absolute;
-    top: 0px;
-    right: 70px;
+    top: -7px;
+    right: 65px;
     background-color: #FDB717;
-    padding: 1px 5px;
+    padding: 1px 7px;
     border-radius: 15px;
-    font-size: 10px;
+    font-size: 12px;
+    transition: 200ms;
 }
 
 p {
@@ -32,5 +33,10 @@ p {
 div {
     position: relative;
     cursor: pointer;
+}
+
+div:hover #quantity {
+    font-size: 14px;
+    transition: 200ms;
 }
 </style>

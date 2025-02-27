@@ -5,13 +5,13 @@
             <p class="d-inline m-1"><i class="bi bi-cart-x"></i> Trocas e Devoluções em Até 7 Dias</p>
             <p class="d-inline m-1"><i class="bi bi-heart"></i> Parcele Suas Compras Em Até 12x</p>
         </div>
-        <div class="bg-dark text-white d-flex justify-content-around align-items-center p-4">
+        <div class="bg-dark text-white d-flex justify-content-around align-items-center p-3">
             <a href="#" class="navbar-brand"><img
                     src="https://thumbor.cartpanda.com/a3OPKejaK-Mb9QY_7zmBC7gSMy4=/420x0/https://assets.mycartpanda.com/static/theme_images/1f/32/c2/393465_7970716072.png?v=13252247658"
                     alt="Logo" width="200rem" height="70rem"></a>
-            <ClientSearch />
+            <Search />
             <div class="d-flex gap-3 align-items-center">
-                <a href="#" class="link-underline-dark">Rastrear Pedido</a>
+                <a href="#" class="link-underline-dark"><i class="bi bi-geo-alt-fill"></i> Rastrear Pedido</a>
                 <p style="font-size: xx-large; font-weight: 100;"> | </p>
                 <Cart />
             </div>

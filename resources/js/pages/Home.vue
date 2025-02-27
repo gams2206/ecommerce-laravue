@@ -1,5 +1,5 @@
 <template>
-  <ClientMenu />
+  <Menu />
   <div class="container-fluid p-5">
     <div>
       <BannerCarousel />
@@ -100,11 +100,11 @@
       />
     </div>
   </div>
-  <ClientFooter />
+  <Footer />
 </template>
 
 <script>
-import MiniBanner from '../components/MiniBanner.vue';
+import MiniBanner from '../components/client/MiniBanner.vue';
 export default {
   name: 'Home',
   components: {

@@ -7,7 +7,7 @@
 
 <script>
 export default {
-    name: 'ClientSearch',
+    name: 'Search',
 };
 </script>
 
