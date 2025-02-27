@@ -1,17 +1,14 @@
 <template>
-  <Menu />
-    <CargoSearch class="h-100"/>
-  <Footer />
+    <CargoSearch />
 </template>
 
 <script>
+import CargoSearch from '../components/client/CargoSearch.vue';
+
 export default {
   name: 'Rastreio',
+  components: {
+    CargoSearch
+  }
 };
 </script>
-
-<style scoped>
-.demo {
-  margin-top: 0px;
-}
-</style>

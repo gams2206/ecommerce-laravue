@@ -62,8 +62,13 @@
 </template>
 
 <script>
+import SocialMedias from './SocialMedias.vue';
+
 export default {
     name: 'ClientFooter',
+    components: {
+        SocialMedias
+    }
 };
 </script>
 

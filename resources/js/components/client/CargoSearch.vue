@@ -36,21 +36,18 @@ export default {
 </script>
 
 <style scoped>
-.text-center>div {
-    transform: scale(1.3);
-}
-
 h1 {
-    font-size: 1.3rem;
-    transform: scale(1.3);
+    font-size: 1.8rem;
 }
 
 .form-control {
     color: rgba(150, 150, 150, 0.7);
-    font-size: larger
+    font-size: x-large;
 }
 
 button {
+    font-size: x-large;
+    padding: 0.8rem;
     color: beige;
     background-color: #FDB717;
 }

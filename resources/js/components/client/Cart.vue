@@ -1,5 +1,5 @@
 <template>
-    <div class="d-flex align-items-center">
+    <div class="d-flex align-items-center cart">
         <i class="bi bi-cart-fill h3"></i>
         <i id="quantity">0</i>
         <p>Carrinho</p>
@@ -30,12 +30,12 @@ p {
     margin-left: 5px;
 }
 
-div {
+.cart {
     position: relative;
     cursor: pointer;
 }
 
-div:hover #quantity {
+.cart:hover #quantity {
     font-size: 14px;
     transition: 200ms;
 }

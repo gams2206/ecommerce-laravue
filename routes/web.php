@@ -2,10 +2,6 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('home');
-});
-
-Route::get('/rastreio', function () {
-    return view('rastreio');
-});
+Route::get('/{any}', function () {
+    return view('app');
+})->where('any', '.*');

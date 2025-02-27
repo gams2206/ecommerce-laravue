@@ -1,5 +1,4 @@
 <template>
-  <Menu />
   <div class="container-fluid p-5">
     <div>
       <BannerCarousel />
@@ -100,24 +99,32 @@
       />
     </div>
   </div>
-  <Footer />
 </template>
 
 <script>
+import BannerCarousel from '../components/client/BannerCarousel.vue';
 import MiniBanner from '../components/client/MiniBanner.vue';
+import SectionTitle from '../components/client/SectionTitle.vue';
+import RoundCard from '../components/client/RoundCard.vue';
+import Banner from '../components/client/Banner.vue';
+import Card from '../components/client/Card.vue';
+import ZapBtn from '../components/client/ZapBtn.vue';
+
 export default {
   name: 'Home',
   components: {
+    BannerCarousel,
     MiniBanner,
+    SectionTitle,
+    RoundCard,
+    Banner,
+    Card,
+    ZapBtn
   }
 };
 </script>
 
 <style scoped>
-.demo {
-  margin: 0;
-}
-
 .banner {
   height: 20rem
 }
