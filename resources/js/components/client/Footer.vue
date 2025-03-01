@@ -30,10 +30,10 @@
                     Se cadastre para receber cupons<br />
                     exclusívos e ofertas imperdíveis!
                 </p>
-                <form action="" method="post" class="d-block w-75">
+                <form action="" method="post" class="d-block">
                     <input 
                         type="email" 
-                        class="form-control p-3 mb-2" 
+                        class="form-control" 
                         id="email" 
                         aria-describedby="input email"
                         placeholder="Seu Email"
@@ -103,6 +103,9 @@ li>a:hover {
 
 input {
     font-size: 15px;
+    padding: 0.7rem;
+    margin: 1rem 0;
+    max-width: 17rem;
 }
 
 form>button {
