@@ -5,22 +5,22 @@
                 <h5>LINKS</h5>
                 <ul class="nav flex-column">
                     <li>
-                        <a href="#">Sobre Nós</a>
+                        <RouterLink to="/sobre-nos">Sobre Nós</RouterLink>
                     </li>
                     <li>
-                        <a href="#">Fale Conosco</a>
+                        <RouterLink to="/fale-conosco">Fale Conosco</RouterLink>
                     </li>
                     <li>
-                        <a href="#">Politica de Privacidade</a>
+                        <RouterLink to="/politicas-de-privacidade">Politica de Privacidade</RouterLink>
                     </li>
                     <li>
-                        <a href="#">Prazo de Entrega</a>
+                        <RouterLink to="/prazo-de-entrega">Prazo de Entrega</RouterLink>
                     </li>
                     <li>
-                        <a href="#">Politica de Frete</a>
+                        <RouterLink to="/politica-de-frete">Politica de Frete</RouterLink>
                     </li>
                     <li>
-                        <a href="#">Trocas e Devoluções</a>
+                        <RouterLink to="/trocas-e-devolucoes">Trocas e Devoluções</RouterLink>
                     </li>
                 </ul>
             </div>

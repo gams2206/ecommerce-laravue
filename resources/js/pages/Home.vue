@@ -93,11 +93,6 @@
     <div>
       <Card />
     </div>
-    <div class="zap">
-      <ZapBtn 
-        zapUrl="https://google.com"
-      />
-    </div>
   </div>
 </template>
 
@@ -131,12 +126,5 @@ export default {
 
 .p-5>div {
   margin: 2rem 0;
-}
-
-.zap {
-  position: fixed;
-  bottom: 1rem;
-  right: 3rem;
-  z-index: 1;
 }
 </style>
