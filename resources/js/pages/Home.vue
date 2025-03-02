@@ -127,4 +127,8 @@ export default {
 .p-5>div {
   margin: 2rem 0;
 }
+
+.card {
+  max-width: 12rem;
+}
 </style>

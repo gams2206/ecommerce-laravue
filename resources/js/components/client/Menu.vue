@@ -28,19 +28,19 @@
                             <RouterLink class="nav-link" to="/">HOME</RouterLink>
                         </li>
                         <li class="nav-item">
-                            <RouterLink class="nav-link" href="#">ACTION FIGURES</RouterLink>
+                            <RouterLink class="nav-link" to="/categorias/action-figures">ACTION FIGURES</RouterLink>
                         </li>
                         <li class="nav-item">
-                            <RouterLink class="nav-link" href="#">ROUPAS E ACESSORIOS</RouterLink>
+                            <RouterLink class="nav-link" to="/categorias/roupas-e-acessorios">ROUPAS E ACESSORIOS</RouterLink>
                         </li>
                         <li class="nav-item">
-                            <RouterLink class="nav-link" href="#">LUMINARIAS</RouterLink>
+                            <RouterLink class="nav-link" to="/categorias/luminarias">LUMINARIAS</RouterLink>
                         </li>
                         <li class="nav-item">
-                            <RouterLink class="nav-link" href="#">FANTASIAS E COSPLAY</RouterLink>
+                            <RouterLink class="nav-link" to="/categorias/fantasias-e-cosplay">FANTASIAS E COSPLAY</RouterLink>
                         </li>
                         <li class="nav-item">
-                            <RouterLink class="nav-link" href="#">CASES E AIRPODS</RouterLink>
+                            <RouterLink class="nav-link" to="/categorias/cases-e-airpods">CASES E AIRPODS</RouterLink>
                         </li>
                     </ul>
                 </div>

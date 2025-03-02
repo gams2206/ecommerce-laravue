@@ -16,7 +16,7 @@
         }
 
         body {
-            background-color: whitesmoke;
+            background-color: rgb(247, 251, 255);
         }
     </style>
 </head>

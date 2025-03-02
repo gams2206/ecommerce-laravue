@@ -1,5 +1,5 @@
 <template>
-  <div class="m-2 bg-white shadow">
+  <div class="m-2 bg-white shadow card">
     <div class="mb-2">
       <img src="https://thumbor.cartpanda.com/xWVFAm48DNRo6ASHhgH24edOpfg=/https://assets.mycartpanda.com/static/products_images/5lVQ0twKWYB0dJRWZhbTNrkqDhjCsm.jpg?v=13252247658" alt="">
       <p>34% OFF</p>
@@ -32,10 +32,9 @@ export default {
   border-radius: 15px;
   padding: 1.2rem;
   position: relative;
-  max-width: 12rem;
 }
 
-p{
+p {
   font-size: small;
   position: absolute;
   top: 0.7rem;

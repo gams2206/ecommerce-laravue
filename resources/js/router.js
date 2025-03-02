@@ -7,6 +7,7 @@ import Privacidade from './pages/Privacidade.vue';
 import Entrega from './pages/Entrega.vue';
 import Frete from './pages/Frete.vue';
 import Trocas from './pages/Trocas.vue';
+import Categorias from './pages/Categorias.vue';
 
 const routes = [
   {
@@ -16,6 +17,10 @@ const routes = [
   {
     path: '/rastreio',
     component: Rastreio
+  },
+  {
+    path: '/categorias/:categoria',
+    component: Categorias
   },
   {
     path: '/sobre-nos',
